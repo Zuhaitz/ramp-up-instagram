@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  background-color: #fafafa;
+}
+
+.side-bar {
+  width: 244px;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.side-bar__logo {
+  width: 103px;
+  height: 29px;
+  margin-top: 40px;
+  margin-left: 24px;
+}
+
+.nav {
+  margin-top: 31px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin: 4px 0;
+  background-color: aqua;
+}
+
+.nav__icon {
+  width: 24px;
+  height: auto;
+}
+
+.nav__text {
+  padding-left: 16px;
+}
