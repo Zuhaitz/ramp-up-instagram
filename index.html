@@ -4,35 +4,156 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Instagram Clone</title>
   </head>
   <body>
-    <div class="side-bar">
-      <img
-        src="assets/images/logo.png"
-        alt="instagram logo"
-        class="side-bar__logo"
-      />
-      <nav class="nav">
-        <a class="nav__link">
-          <img src="assets/icons/home.svg" alt="home icon" class="nav__icon" />
-          <p class="nav__text">Home</p>
-        </a>
+    <header>
+      <div class="side-bar">
+        <img
+          src="assets/images/logo.png"
+          alt="instagram logo"
+          class="side-bar__logo"
+        />
+        <nav class="nav">
+          <div>
+            <a class="nav__link">
+              <img
+                src="assets/icons/home.svg"
+                alt="home icon"
+                class="nav__icon"
+              />
+              <p class="nav__text">Home</p>
+            </a>
 
-        <a class="nav__link">
-          <img src="assets/icons/home.svg" alt="home icon" class="nav__icon" />
-          <p class="nav__text">Search</p>
-        </a>
+            <a class="nav__link">
+              <img
+                src="assets/icons/home.svg"
+                alt="home icon"
+                class="nav__icon"
+              />
+              <p class="nav__text">Search</p>
+            </a>
 
-        <a class="nav__link">
-          <img src="assets/icons/home.svg" alt="home icon" class="nav__icon" />
-          <p class="nav__text">Explore</p>
-        </a>
-      </nav>
-    </div>
-    <div>
-      <main>Main</main>
-      <footer>Footer</footer>
-    </div>
+            <a class="nav__link">
+              <img
+                src="assets/icons/home.svg"
+                alt="home icon"
+                class="nav__icon"
+              />
+              <p class="nav__text">Explore</p>
+            </a>
+
+            <a class="nav__link">
+              <img
+                src="assets/icons/home.svg"
+                alt="home icon"
+                class="nav__icon"
+              />
+              <p class="nav__text">Reels</p>
+            </a>
+
+            <a class="nav__link">
+              <img
+                src="assets/icons/home.svg"
+                alt="home icon"
+                class="nav__icon"
+              />
+              <p class="nav__text">Messages</p>
+            </a>
+
+            <a class="nav__link">
+              <img
+                src="assets/icons/home.svg"
+                alt="home icon"
+                class="nav__icon"
+              />
+              <p class="nav__text">Notifications</p>
+            </a>
+
+            <a class="nav__link">
+              <img
+                src="assets/icons/home.svg"
+                alt="home icon"
+                class="nav__icon"
+              />
+              <p class="nav__text">Create</p>
+            </a>
+
+            <a class="nav__profile">
+              <img
+                src="assets/icons/home.svg"
+                alt="profile icon"
+                class="nav__profile-icon"
+              />
+              <p class="nav__text">Profile</p>
+            </a>
+          </div>
+
+          <a class="nav__more">
+            <img
+              src="assets/icons/home.svg"
+              alt="home icon"
+              class="nav__icon"
+            />
+            <p class="nav__text">More</p>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="content">
+        <div class="user-header">
+          <div class="user-header__pic">
+            <img
+              src="assets/images/profile-pic.png"
+              alt="profile pic"
+              class="user-header__img"
+            />
+          </div>
+          <div>
+            <div>
+              <div class="user__data">
+                <p>terrylucas</p>
+                <button class="user__btn">Follow</button>
+              </div>
+              <a href="#">
+                <img src="assets/icons/info.svg" alt="info button" />
+              </a>
+            </div>
+
+            <div>
+              <div>
+                <p><span class="text-bold">1.258</span> posts</p>
+                <p><span class="text-bold">4M</span> followers</p>
+                <p><span class="text-bold">1.250</span> following</p>
+              </div>
+            </div>
+
+            <div>
+              <p>Terry Lucas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div>
+          <a href="#">Meta</a>
+        </div>
+        <div>
+          <p>English</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
