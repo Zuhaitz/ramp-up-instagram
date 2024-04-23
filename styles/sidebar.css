@@ -1,15 +1,15 @@
-.side-bar {
+.sidebar {
   /* position: -webkit-sticky; */
   position: sticky;
   top: 0;
   z-index: 10;
   width: 244px;
   height: 100vh;
-  margin-left: 249px;
+  /* margin-left: 249px; */
   background-color: #ffffff;
 }
 
-.side-bar__logo {
+.sidebar__logo {
   width: 103px;
   height: 29px;
   margin-top: 40px;
