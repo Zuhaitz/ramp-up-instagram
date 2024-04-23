@@ -1,0 +1,61 @@
+.user-header {
+  display: flex;
+  align-items: center;
+  padding: 73px 0 44px 0;
+}
+
+.user-header__pic {
+  height: 150px;
+  padding: 0 101px 0 71px;
+  gap: 10px;
+}
+
+.user-header__img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.user__name {
+  font-weight: 350;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.user__btn {
+  width: 90px;
+  height: 30px;
+  padding: 6px 24px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 4px;
+  border: 0;
+  color: white;
+  background-color: #0095f6;
+}
+
+.btn-pad {
+  padding: 1px 0 1px 20px;
+}
+
+.user__info {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user__info-icon {
+  width: 24;
+  height: auto;
+}
+
+.user__metrics {
+  display: flex;
+}
+
+.user__metric {
+  font-size: 16px;
+  line-height: 18px;
+  padding-right: 40px;
+}
