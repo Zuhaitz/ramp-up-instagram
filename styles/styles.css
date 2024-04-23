@@ -17,8 +17,8 @@ body {
 .content {
   width: 935px;
   /* height: 100vh; */
-  margin-left: 50%;
-  transform: translateX(-50%);
+  /* margin-left: 50%;
+  transform: translateX(-50%);*/
 }
 
 .user-header {
