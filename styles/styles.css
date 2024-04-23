@@ -20,7 +20,7 @@ body {
   /* height: 100vh; */
   /* margin-left: 50%;
   transform: translateX(-50%);*/
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .right-sidebar {
@@ -29,10 +29,12 @@ body {
 
 .user-header {
   display: flex;
+  align-items: center;
   padding: 73px 0 44px 0;
 }
 
 .user-header__pic {
+  height: 150px;
   padding: 0 101px 0 71px;
   gap: 10px;
 }
@@ -41,6 +43,13 @@ body {
   width: 150px;
   height: auto;
   border-radius: 50%;
+}
+
+.user__name {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 350;
+  font-size: 28px;
+  line-height: 32px;
 }
 
 .user__btn {
@@ -55,6 +64,60 @@ body {
   background-color: #0095f6;
 }
 
+.btn-pad {
+  padding: 1px 0 1px 20px;
+}
+
+.user__info {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user__info-icon {
+  width: 24;
+  height: auto;
+}
+
+.user__metrics {
+  display: flex;
+}
+
+.user__metric {
+  font-size: 16px;
+  line-height: 18px;
+  padding-right: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+}
+
 .text-bold {
   font-weight: 600;
+}
+
+.pad-8-center {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.pad-v-14 {
+  padding: 14px 0;
+}
+
+.pad-v-20 {
+  padding: 20px 0;
+}
+
+.lh-24 {
+  font-size: 16px;
+  line-height: 24px;
 }
