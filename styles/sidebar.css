@@ -1,10 +1,11 @@
 .side-bar {
   /* position: -webkit-sticky; */
-  position: absolute;
+  position: sticky;
   top: 0;
   z-index: 10;
   width: 244px;
   height: 100vh;
+  margin-left: 249px;
   background-color: #ffffff;
 }
 
