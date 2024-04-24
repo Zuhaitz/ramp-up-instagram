@@ -1,0 +1,38 @@
+.toggle {
+  display: flex;
+  justify-content: center;
+  height: 53px;
+  border-top: 1px solid #8e8e8e;
+}
+
+.toggle__options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle__option {
+  display: flex;
+  align-items: center;
+  width: 114px;
+  height: 53px;
+  padding: 0px 60px 0px 0px;
+  color: #8e8e8e;
+}
+
+.toggle__option p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  margin-left: 6px;
+}
+
+.toggle__option img {
+  width: 12px;
+  height: auto;
+}
+
+.toggle__option--selected {
+  color: #262626;
+  border-top: 1px solid #262626;
+}
