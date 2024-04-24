@@ -41,6 +41,7 @@
 
 .footer__lang > img {
   margin-left: 4px;
+  cursor: pointer;
 }
 
 .footer__rights {
