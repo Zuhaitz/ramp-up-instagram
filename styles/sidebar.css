@@ -24,6 +24,10 @@
   /* background-color: blue; */
 }
 
+.nav a:hover {
+  background-color: #dbdbdb;
+}
+
 .nav__link {
   display: flex;
   align-items: center;

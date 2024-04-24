@@ -20,6 +20,10 @@ body {
   background-color: #fafafa;
 }
 
+a {
+  color: #262626;
+}
+
 .content {
   width: 935px;
   font-family: "Segoe UI", Arial, sans-serif;
