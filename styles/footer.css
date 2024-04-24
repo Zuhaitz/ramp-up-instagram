@@ -1,5 +1,7 @@
 .footer {
   display: flex;
+  position: absolute;
+  bottom: 0;
   justify-content: center;
 }
 
@@ -9,5 +11,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: red; */
+  /* background-color: #fafafa; */
+  background-color: aqua;
 }
