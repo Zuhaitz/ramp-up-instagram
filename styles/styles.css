@@ -1,12 +1,13 @@
 @import "reset.css";
 
 @import "sidebar.css";
-
 @import "user-header.css";
 @import "stories.css";
 @import "toggle.css";
-
+@import "user-posts.css";
 @import "footer.css";
+
+@import "utils.css";
 
 body {
   display: flex;
@@ -31,40 +32,4 @@ a {
   /* margin-left: 50%;
   transform: translateX(-50%);*/
   /* background-color: aqua; */
-}
-
-.right-sidebar {
-  width: 244px;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.d-flex-center {
-  display: flex;
-  align-items: center;
-}
-
-.text-bold {
-  font-weight: 600;
-}
-
-.pad-8-center {
-  padding: 8px;
-  display: flex;
-  align-items: center;
-}
-
-.pad-v-14 {
-  padding: 14px 0;
-}
-
-.pad-v-20 {
-  padding: 20px 0;
-}
-
-.lh-24 {
-  font-size: 16px;
-  line-height: 24px;
 }

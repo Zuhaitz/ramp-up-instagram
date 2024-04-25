@@ -1,0 +1,24 @@
+.user-posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: aqua; */
+}
+
+.post {
+  position: relative;
+  width: 293px;
+  height: 293px;
+  margin-bottom: 28px;
+}
+
+.post__img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.post__icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

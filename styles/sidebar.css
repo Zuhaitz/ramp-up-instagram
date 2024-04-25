@@ -9,6 +9,10 @@
   background-color: #ffffff;
 }
 
+.right-sidebar {
+  width: 244px;
+}
+
 .sidebar__logo {
   width: 103px;
   height: 29px;
